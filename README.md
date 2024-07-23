@@ -27,20 +27,20 @@ The Tech Products Review Website is a platform designed to provide detailed revi
 
 ### Setup
 
-1. **Clone the Repository**
+## 1. Clone the Repository
 
    ```bash
    git clone https://github.com/Raghavk17/tech-products-review-website.git
 2. **Configure the Database**
 
-##Open XAMPP and start Apache and MySQL.##
-##Create a new database named tech_reviews in phpMyAdmin.##
-##Import the database.sql file provided in the project folder to set up the tables.##
-##Update Database Credentials##
+- **Open XAMPP and start Apache and MySQL.**
+- **Create a new database named tech_reviews in phpMyAdmin.**
+- **Import the database.sql file provided in the project folder to set up the tables.**
+- **Update Database Credentials**
 
-##Open the db.php file in the includes directory.##
+- **pen the db.php file in the includes directory**
 
-##Update the database credentials with your local MySQL settings:##
+**Update the database credentials with your local MySQL settings:**
 <?php
 $servername = "localhost";
 $username = "root"; // Default username for XAMPP
@@ -55,22 +55,22 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 ?>
-3.**Add Background Images**
+## 3. Add Background Images 
 
-##Place your background images in the images folder.##
-##Run the Website##
+- **Place your background images in the images folder.**
+- **Run the Website**
 
 Open your web browser and navigate to http://localhost/tech-products-review-website/.
-4.**Usage**
-##Homepage: Browse the latest tech products.##
-##Category Pages: View products categorized into Mobiles, Laptops, Smart TVs, etc.##
-##Product Pages: See detailed reviews and information about each product.##
-##User Login: Register, log in, and log out from the site.##
-5.**Contributing**
-##Fork the repository.##
-##Create a new branch (git checkout -b feature/YourFeature).##
-##Commit your changes (git commit -am 'Add new feature').##
-##Push to the branch (git push origin feature/YourFeature).##
-##Open a pull request.##
-6.**Contact**
+## 4.Usage
+- **Homepage: Browse the latest tech products.**
+- **Category Pages: View products categorized into Mobiles, Laptops, Smart TVs, etc.**
+- **Product Pages: See detailed reviews and information about each product.**
+- **User Login: Register, log in, and log out from the site.**
+## 5.Contributing
+- **Fork the repository.**
+- **Create a new branch (git checkout -b feature/YourFeature).**
+- **Commit your changes (git commit -am 'Add new feature').**
+- **Push to the branch (git push origin feature/YourFeature).**
+- **Open a pull request.**
+## 6.Contact
 For any questions or issues, please contact raghavkush2015@gmailcom

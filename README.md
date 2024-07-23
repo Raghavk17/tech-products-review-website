@@ -26,12 +26,9 @@ The Tech Products Review Website is a platform designed to provide detailed revi
 2. [MySQL](https://www.mysql.com/) for database management.
 
 ### Setup
-
-## 1. Clone the Repository
-
-   ```bash
+ ## 1. Clone the Repository
    git clone https://github.com/Raghavk17/tech-products-review-website.git
-2. **Configure the Database**
+## 2. Configure the Database
 
 - **Open XAMPP and start Apache and MySQL.**
 - **Create a new database named tech_reviews in phpMyAdmin.**

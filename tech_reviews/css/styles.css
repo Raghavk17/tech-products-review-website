@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-bottom: 100px; /* To avoid footer overlap */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h1.main-heading {
+    color: #001f3f; /* Navy blue */
+    background-color: #ffffff; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 2.5em;
+}
+
+.product {
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 30%; /* Ensure that 3 products fit in a row */
+    box-sizing: border-box;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #dddddd;
+    padding-bottom: 10px;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    color: #001f3f; /* Navy blue */
+}
+
+.product p {
+    color: #555555;
+}
+
+.product .price {
+    font-size: 1.2em;
+    color: #ff6600; /* Price color */
+    font-weight: bold;
+}
+
+.product a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #001f3f; /* Navy blue */
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.product a:hover {
+    background-color: #0056b3; /* Lighter blue */
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust spacing between products */
+}
